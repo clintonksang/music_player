@@ -1,0 +1,41 @@
+name: musicplayer
+description: A new Flutter application.
+
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+      sdk: flutter
+  flutter_launcher_icons: ^0.7.4
+  url_launcher:
+  path_provider:
+  audioplayer:
+  local_notifications:
+  dynamic_theme: ^1.0.0
+  palette_generator:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "img/placeholder.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - img/placeholder.png
+
+  fonts:
+    - family: BalooBhaina
+      fonts:
+        - asset: fonts/BalooBhaina2-Regular.ttf
